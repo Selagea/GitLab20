@@ -1,9 +1,7 @@
-package testCases;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+package TestCases;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.BasePage;
 import pages.CheckboxDemoPage;
@@ -23,5 +21,5 @@ public class CheckboxDemoTestCases extends BasePage{
         checkboxDemoPage.clickOnFirstCheckBoxOption();
         checkboxDemoPage.clickOnCheckAllOption();
         Assert.assertEquals("Success - Check box is checked", "Success - Check box is checked");
-    }
+}
 }

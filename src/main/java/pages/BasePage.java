@@ -7,11 +7,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 package pages;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import java.nio.file.Paths;
 
 public class BasePage {
